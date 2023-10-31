@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Listner Test">
+	<listeners>
+		<listener class-name="Common.RetryListener"></listener>
+	</listeners>
+  <test name="Listner_captureScreenshot">
+	  <classes>
+		  <class name="TestNG.ReRun_FailedTest1"></class>
+	  </classes>
+  </test> <!-- Listner_captureScreenshot -->
+</suite> <!-- Listner Test -->
